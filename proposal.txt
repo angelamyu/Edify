@@ -1,0 +1,22 @@
+Edify:
+
+General Idea: Plot data about public high schools in Philadelphia to help visualize aspects of school statistics, such as SAT and ACT scores.
+
+Team Members: Angela Yu and Ana Mei
+
+Goals:
+- Load, specifically public high school, data from the “Data Used” section below
+- Create a rudimentary website, centered around a map (probably a Google Map) that will be used to visualize our data
+- Allow the users to view information about different schools based on data types (scores, number of incidents, etc.)
+
+Division of Work:
+- data mining -> Angela
+- plotting data/graphics -> Ana
+
+Packages Used:
+Flask
+A package for map visualization (most likely a python wrapper for Google Maps, ex. http://code.google.com/p/pygmaps/)
+
+Data Used:
+http://www.pde.state.pa.us/portal/server.pt/community/data_and_statistics/7202/sat_and_act_scores/674663 - SAT and ACT scores
+http://webgui.phila.k12.pa.us/offices/a/accountability/open-data-initiative - General school information
