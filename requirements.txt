@@ -1,0 +1,26 @@
+Requirements:
+
+Python Modules Used:
+csv, MySQLdb, numpy, requests, urllib, time, nose
+
+Used Google Maps API V3 with Javascript
+Note that Google will limit how many requests the server can make in 24 hours. 
+Relevant for testing (cgi-bin/tests.py)
+
+The code was run on a personal Red Hat server hosting the project with Python, Apache, and MySQL. We are not sure how the graders will be able to run the code, but:
+
+First create a database named "CIS192" with user = 'root' and password = ''
+
+Next, inside the cgi-bin folder:
+python load_db.py
+
+Tests can be run like this (in cgi-bin folder):
+python tests.py
+
+Then the page should be able to run properly. We have it deployed at:
+http://www.hackamaroo.com/Edify/
+
+Please also read our documentation in the .pdf file EdifyDocumentation.pdf
+
+Thank you, 
+Angela Yu and Ana Mei
